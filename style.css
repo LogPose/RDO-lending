@@ -1,0 +1,540 @@
+body {
+    margin: 0;
+}
+
+/* First Box */
+
+.firstBox {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    background-color: brown;
+}
+
+.headBlock{
+    top: -95px;
+    position: relative;
+    margin-left: -500px;
+    left: 50%;
+    width: 1000px;
+    height: 500px;
+    margin-top: 16px;
+    background-image: url(./images/welcomeBlockBackground.png);
+
+}
+
+.welcomeBlock{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    margin-top: -266px;
+    top: 50%;
+    margin-left: -500px;
+    left: 50%;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.welcomeHeader{
+    margin: 60px 0 0 0;
+    width: 1000px;
+    height: 200px;
+    vertical-align: middle;
+    font-family: "Wanted";
+    font-size: 100px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-image: url(./images/gameWelcomeBlockBackground.png);
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+
+}
+
+.welcomeGameName{
+    height: 150px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: "RDF";
+    font-size: 120px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    background-image: url(./images/gameNameBackground.png);
+    text-shadow: 0px 2px 10px rgb(255, 255, 255);
+    color: rgb(199, 23, 23);
+}
+
+.description{
+    vertical-align: middle;
+    text-align: center;
+    font-family: "Description";
+    font-size: 35px;
+    margin: 0;
+    color: whitesmoke;
+    text-shadow: 0 0 4px black;
+}
+
+
+.buttonsBlock{
+    width: 300px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menuButton1{
+    background-image: url(./buttons/officialSite.png);
+    width: 60px;
+    height: 60px;
+    background-color: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menuButton1:hover{
+    background-image: url(./buttons/officialSiteHover.png);
+}
+
+.menuButton1:active{
+    background-image: url(./buttons/officialSiteActive.png);
+    box-shadow: 0 0 3px black;
+}
+
+/* Second Box */
+
+.descriptionRole{
+    vertical-align: middle;
+    text-align: left;
+    font-family: "Description";
+    font-size: 32px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-shadow: 2 2 15px rgb(255, 0, 0);
+}
+
+.secondBlockTitle{
+    width: 100%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Wanted";
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    background-color: rgb(172, 44, 44, 0.6);
+    letter-spacing: 0.05em;
+    text-shadow: 2px 2px 5px black;
+}
+.secondBox{
+    text-align: center;
+    position: absolute;
+    margin-top: 1000px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(27, 27, 27);
+}
+.roleBlock{
+    position: absolute;
+    width: 1100px;
+    height: 800px;
+    left: -550px;
+    margin-left: 50%;
+    align-items: center;
+}
+.textContainer{
+    width: 500px;
+    height: 400px;
+    margin-left: 450px;
+    align-items: center;
+}
+.naturalistButton:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.naturalistBar{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 500px;
+    background-image: url(./images/roleButtons/roleDescription/naturalist.png);
+    animation-duration: 0.5s;
+    animation-name: none;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.traderButton:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.traderBar{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 500px;
+    background-image: url(./images/roleButtons/roleDescription/trader.png);
+    animation-duration: 0.5s;
+    animation-name: none;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.bountyHunterButton:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.bountyHunterBar{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 500px;
+    background-image: url(./images/roleButtons/roleDescription/bountyHunter.png);
+    animation-duration: 0.5s;
+    animation-name: none;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+.collectorButton:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.collectorBar{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 500px;
+    background-image: url(./images/roleButtons/roleDescription/collector.png);
+    animation-duration: 0.5s;
+    animation-name: none;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.moonshinerButton:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.moonshinerBar{
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 500px;
+    background-image: url(./images/roleButtons/roleDescription/moonshiner.png);
+    animation-duration: 0.5s;
+    animation-name: none;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.roleFooter{
+    margin-top: 500px;
+    width: 1000px;
+    height: 150px;
+    background-image: url(./images/roleButtons/roleFooter.png);
+}
+
+@keyframes getGone {
+    from {
+        opacity: 1;
+        margin-left: -500px;
+    }
+    to {
+        opacity: 0;
+        margin-left: -350px;
+    }
+}
+
+@keyframes getRise {
+    from {
+        opacity: 0;
+        margin-left: -650px;
+    }
+
+    to {
+        opacity: 1;
+        margin-left: -500px;
+    }
+}
+
+/* Third Box */
+
+.thirdBlockHeader{
+    position: absolute;
+    align-items: center;
+    width: 1200px;
+    height: 200px;
+    left: -600px;
+    margin-left: 50%;
+}
+
+.thirdBlockTitle{
+    text-align: center;
+    width: 100%;
+    height: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Wanted";
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    background-color: rgba(22, 22, 22, 0.6);
+    letter-spacing: 0.05em;
+    text-shadow: 2px 2px 5px black;
+}
+
+.eventDescription{
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 220px;
+    align-items: center;
+}
+
+.pveDescription{
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 550px;
+    height: 500px;
+    background-color: blueviolet;
+    display: inline-block;
+    animation-duration: 0.5s;
+    animation-name: none;
+    animation-fill-mode: forwards;
+    border-radius: 30px;
+    background-image: url(./images/PVP_PVE_Backs/pveBackFirst.png);
+}
+
+.pvpDescription{
+    width: 550px;
+    height: 500px;
+    background-color: rgb(204, 149, 255);
+    display: inline-block;
+    animation-duration: 0.5s;
+    animation-name: none;
+    animation-fill-mode: forwards;
+    border-radius: 30px;
+    background-image: url(./images/PVP_PVE_Backs/pvpBackFirst.png);
+}
+
+.thirdBox{
+    position:absolute;
+    margin-top: 2000px;
+    width: 100%;
+    height: 1000px;
+    background-color: brown;
+}
+
+@keyframes bigBox {
+    from {
+        width: 550px;
+    }
+    to {
+        width: 900px;
+    } 
+}
+
+@keyframes smallBox {
+    from {
+        width: 550px;
+    }
+    to {
+        width: 200px;
+    }
+}
+
+@keyframes backToNormalFromBig {
+    from {
+        width: 900px;
+    }
+    to {
+        width: 550px;
+    }
+}
+
+@keyframes backToNormalFromSmall {
+    from {
+        width: 200px;
+    }
+    to {
+        width: 550px;
+    }
+}
+
+.thirdBoxFooter{
+    position: relative;
+    width: 1000px;
+    height: 150px;
+    margin-left: -500px;
+    left: 50%;
+    background-image: url(./images/block3Footer.png);
+}
+
+/* Fourth Box */
+
+.fourthBoxHeader{
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    background-image: url(./images/boxFourthBackgroundTop.png);
+}
+
+.fourthBox{
+    position: absolute;
+    margin-top: 3000px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(27, 27, 27) ;
+}
+
+.platformButtonsBlock{
+    position: absolute;
+    width: 1000px;
+    height: 250px;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: 500px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 30px;
+    align-items: center;
+}
+
+.steam{
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 40px;
+    display: inline-block;
+
+}
+.steam:hover{
+    animation-duration: 0.5s;
+    animation-name: rotation;
+}
+.egs{
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 40px;
+    display: inline-block;
+}
+.egs:hover{
+    animation-duration: 0.5s;
+    animation-name: rotation;
+}
+.xbox{
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 40px;
+    display: inline-block;
+}
+.xbox:hover{
+    animation-duration: 0.5s;
+    animation-name: rotation;
+}
+.ps{
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 0px;
+    display: inline-block;
+}
+.ps:hover{
+    animation-duration: 0.5s;
+    animation-name: rotation;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.boxFourthFooter{
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    left: 50%;
+    margin-top: 780px;
+    margin-left: -600px;
+    background-image: url(./images/box4Footer.png);
+}
+
+/* footer */
+
+.myCharacter{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    margin-top: -280px;
+    margin-left: 200px;
+    background-image: url(./images/myCharacter.png);
+}
+
+.findMe{
+    width: 300px;
+    position: absolute;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.me{
+    margin-top: 15px;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 700px;
+    margin-left: -350px;
+    left: 50%;
+    text-align: center;
+    color: rgb(185, 65, 22);
+    
+}
+
+.footer{
+    position: absolute;
+    margin-top: 4000px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 190, 51);
+}
+
+/* Шрифты для сайта и всякие мелочи */
+
+@font-face {
+    font-family: "Wanted";
+    src: url(./fonts/16908.otf);
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: .3px;
+}
+
+@font-face {
+    font-family: "Description";
+    src: url(./fonts/desc.otf);
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: .3px;
+}
+
+@font-face {
+    font-family: "RDF";
+    src: url(./fonts/RDF.ttf);
+    font-style: normal;
+    font-weight:lighter;
+    
+}
+
+.hide{
+    display: none;
+}
